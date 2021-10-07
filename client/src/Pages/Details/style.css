@@ -70,9 +70,23 @@
   width: 100% !important;
   margin: 0 10px;
 }
-
+.detail__btn__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 @media (max-width: 1000px) {
   .description__content p {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .detail__btn__div {
+    flex-direction: column;
+  }
+  .detail__btn {
+    margin-top: 10px;
   }
 }

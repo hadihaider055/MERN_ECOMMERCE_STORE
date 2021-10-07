@@ -41,7 +41,7 @@ const Details = () => {
               <div className="description__footer w-100">
                 <h5>Category: {product.category}</h5>
                 <h4>Rs {product.price.toLocaleString()}</h4>
-                <div className="d-flex a-center j-space-between w-100">
+                <div className="detail__btn__div">
                   <button className="btn btn-success detail__btn">
                     Add to wishlist
                   </button>
