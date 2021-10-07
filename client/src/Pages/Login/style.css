@@ -1,0 +1,20 @@
+.login__main {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  bottom: 0;
+}
+.login__btn {
+  width: 350px;
+  height: 50px;
+}
+.login__main h1 {
+  font-family: "Georama", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}

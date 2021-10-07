@@ -1,0 +1,107 @@
+.cart__container {
+  margin: 0 auto !important;
+  position: absolute;
+  max-width: 80vw;
+  top: 20%;
+  left: 0 !important;
+  right: 0 !important;
+}
+.cart__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cart__div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.cart__container h1 {
+  font-family: "Georama", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cart__div {
+  border: 1px solid #ccc;
+  height: 210px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.cart__div img {
+  max-width: 200px;
+  width: 100%;
+}
+.cart__div__info {
+  margin: 0 auto;
+  margin-left: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.cart__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.cart__title h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+}
+.cart__title p {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.5px;
+  color: rgba(32, 32, 32, 0.932);
+  font-size: 13px;
+  margin-top: 12px;
+  margin-left: 50px;
+}
+.cart__price h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: rgba(32, 32, 32, 0.932);
+  font-size: 20px;
+}
+
+.cart__quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.cart__quantity p {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.5px;
+  color: rgba(32, 32, 32, 0.932);
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+@media (max-width: 620px) {
+  .cart__div img {
+    max-width: 200px;
+    width: 100%;
+  }
+  .cart__title h2 {
+    font-size: 20px;
+  }
+  .cart__title p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 500px) {
+  .cart__div {
+    margin: 0 auto;
+    height: 400px;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  .cart__div img {
+    max-width: 300px;
+    width: 100%;
+  }
+  .cart__btn__home {
+    width: 100% !important;
+  }
+}

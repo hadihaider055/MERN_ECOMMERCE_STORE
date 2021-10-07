@@ -1,0 +1,17 @@
+.createProduct__main {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+.createProduct__div {
+}
+.createProduct__div h1 {
+  font-family: "Georama", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}

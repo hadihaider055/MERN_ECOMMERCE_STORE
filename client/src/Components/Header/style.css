@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  background-color: #f7f8f8;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.224);
+  z-index: 9;
+}
+.button {
+  border: none;
+  padding: 7px;
+  font-family: "Georama", sans-serif;
+  color: #fff;
+  background-color: rgb(241, 36, 77);
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 7px;
+  width: 100px;
+  height: 45px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.11);
+}
+.button:hover {
+  box-shadow: 0 5px 12px rgba(27, 27, 27, 0.169);
+  transition: 0.3s all ease-in-out;
+}
+.header__login {
+  font-family: "Georama", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.button a {
+  color: #fff;
+  font-family: "Georama", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.link__btn {
+  color: rgb(241, 36, 77);
+  font-family: "Georama", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 11px 10px;
+}
+.link__btn:hover {
+  color: rgb(241, 36, 77);
+  text-decoration: underline;
+}
+.navbar__brand {
+  color: rgb(241, 36, 77);
+  font-family: "Georama", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 18px 10px;
+}
+.navbar__brand:hover {
+  color: rgb(241, 36, 77);
+}
+.header__basket {
+  position: relative;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.shopping__basket {
+  font-size: 30px !important;
+}
+.header__basket span {
+  position: absolute;
+  background-color: rgb(241, 36, 77);
+  color: #fff;
+  font-family: "Georama", sans-serif;
+  padding: 0 7px;
+  border-radius: 17px;
+  left: 30px;
+  top: 3px;
+}
+.header__loginDiv {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: center;
+}
+
+@media (max-width: 460px) {
+  .link__btn,
+  .header__login {
+    display: none;
+  }
+}
+@media (max-width: 350px) {
+  .shopping__basket {
+    font-size: 25px !important;
+  }
+  .navbar__brand {
+    font-size: 13px;
+  }
+  .header__basket span {
+    left: 25px;
+    top: 1px;
+  }
+}

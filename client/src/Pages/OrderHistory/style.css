@@ -1,0 +1,51 @@
+.checkoutHistory__div {
+  position: absolute;
+  max-width: 80vw;
+  width: 100%;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  overflow: scroll !important;
+}
+thead {
+  padding: 10px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+thead th {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  font-family: "Georama", sans-serif;
+}
+tbody td {
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  font-family: "Georama", sans-serif;
+  text-align: center;
+}
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+thead tr {
+  border-bottom: 1px solid #ddd;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.checkoutHistory__div h1 {
+  font-family: "Georama", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
