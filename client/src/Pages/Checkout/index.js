@@ -21,7 +21,7 @@ const Checkout = () => {
   const { cart } = useSelector((state) => state.productReducer);
   useEffect(() => {
     setUserOrder({ ...userOrder, cart });
-  }, [cart, userOrder]);
+  }, [cart]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -86,7 +86,19 @@ const Checkout = () => {
 
   return (
     <Layout>
-      <div className="login__main">
+      <div
+        style={{
+          margin: "0 auto",
+          textAlign: "center",
+          maxWidth: "350px",
+          width: "100%",
+          position: "absolute",
+          left: 0,
+          right: 0,
+          top: "20%",
+          bottom: "0",
+        }}
+      >
         <h1>Checkout Form</h1>
         <form onSubmit={handleFormSubmit}>
           <input
