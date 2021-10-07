@@ -12,6 +12,7 @@ import Checkout from "./Pages/Checkout";
 import OrderHistory from "./Pages/OrderHistory";
 import AdminOrderHistory from "./Pages/AdminOrderHistory";
 import { useSelector } from "react-redux";
+import PageNotFound from "./Pages/PageNotFound";
 
 function App() {
   const userRoleRedux = useSelector((state) => state.authReducer.role);
@@ -54,7 +55,7 @@ function App() {
             />
           </>
         ) : null}
-        <Route path="*">Not Found</Route>
+        <Route path="*" component={PageNotFound} />
       </Switch>
     </Router>
   );

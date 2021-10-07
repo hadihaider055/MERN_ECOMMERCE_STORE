@@ -15,7 +15,18 @@ const PageNotFound = () => {
         height: "100vh",
       }}
     >
-      <img src={ErrorImage} alt="404" className="error__image" />
+      <img
+        src={ErrorImage}
+        alt="404"
+        style={{
+          margin: "0 auto",
+          maxWidth: "80%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      />
       <Link to="/">
         <button
           style={{
