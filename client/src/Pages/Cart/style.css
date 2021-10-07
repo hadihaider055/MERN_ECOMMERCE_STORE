@@ -30,6 +30,7 @@
   margin-top: 10px;
 }
 .cart__div img {
+  margin: 0 auto;
   max-width: 200px;
   width: 100%;
 }
@@ -98,7 +99,7 @@
     width: 300px;
   }
   .cart__div img {
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
   }
   .cart__btn__home {
